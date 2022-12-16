@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "eternal:maple_leaves",
+    "eternal:ash_leaves",
+    "eternal:walnut_leaves",
+    "eternal:blossomed_cherry_leaves",
+    "eternal:cherry_leaves"
+  ]
+}

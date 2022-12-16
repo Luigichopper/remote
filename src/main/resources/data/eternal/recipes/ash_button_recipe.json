@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eternal:ash_planks"
+    }
+  ],
+  "result": {
+    "item": "eternal:ash_button",
+    "count": 1
+  }
+}

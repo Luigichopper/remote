@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eternal:block/duskstone_slab"
+    },
+    "type=top": {
+      "model": "eternal:block/duskstone_slab_top"
+    },
+    "type=double": {
+      "model": "eternal:block/duskstone_slab_full"
+    }
+  }
+}

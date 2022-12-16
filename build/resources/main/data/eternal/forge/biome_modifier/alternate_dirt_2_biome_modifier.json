@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "eternal:alternate_dirt_2",
+  "step": "underground_ores"
+}

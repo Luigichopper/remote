@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "eternal:blocks/cherry_planks",
+    "top": "eternal:blocks/cherry_planks",
+    "side": "eternal:blocks/cherry_planks"
+  },
+  "render_type": "solid"
+}

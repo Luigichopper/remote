@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "eternal:cherry_forest",
+  "features": "eternal:blossomed_cherry_leaves",
+  "step": "underground_ores"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "eternal:duskstone"
+    },
+    "1": {
+      "item": "eternal:duskstone"
+    },
+    "2": {
+      "item": "eternal:duskstone"
+    },
+    "3": {
+      "item": "eternal:duskstone"
+    },
+    "4": {
+      "item": "eternal:duskstone"
+    },
+    "5": {
+      "item": "eternal:duskstone"
+    }
+  },
+  "result": {
+    "item": "eternal:duskstone_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "eternal:blocks/maple_planks",
+    "top": "eternal:blocks/maple_planks",
+    "side": "eternal:blocks/maple_planks"
+  },
+  "render_type": "solid"
+}

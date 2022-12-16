@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "eternal:maple_wood",
+    "eternal:maple_log",
+    "eternal:maple_planks",
+    "eternal:walnut_wood",
+    "eternal:walnut_log",
+    "eternal:walnut_planks",
+    "eternal:ash_wood",
+    "eternal:ash_log",
+    "eternal:ash_planks",
+    "eternal:cherry_wood",
+    "eternal:cherry_log",
+    "eternal:cherry_planks",
+    "eternal:alternate_oak_wood"
+  ]
+}

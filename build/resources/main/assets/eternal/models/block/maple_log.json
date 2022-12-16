@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eternal:blocks/maple_log_top",
+    "up": "eternal:blocks/maple_log_top",
+    "north": "eternal:blocks/maple_log",
+    "east": "eternal:blocks/maple_log",
+    "south": "eternal:blocks/maple_log",
+    "west": "eternal:blocks/maple_log",
+    "particle": "eternal:blocks/maple_log_top"
+  },
+  "render_type": "solid"
+}

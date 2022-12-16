@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "eternal:maple_planks"
+    },
+    "3": {
+      "item": "eternal:maple_planks"
+    },
+    "4": {
+      "item": "eternal:maple_planks"
+    },
+    "6": {
+      "item": "eternal:maple_planks"
+    },
+    "7": {
+      "item": "eternal:maple_planks"
+    },
+    "8": {
+      "item": "eternal:maple_planks"
+    }
+  },
+  "result": {
+    "item": "eternal:maple_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "eternal:tin_nugget"
+    },
+    "1": {
+      "item": "eternal:tin_nugget"
+    },
+    "2": {
+      "item": "eternal:tin_nugget"
+    },
+    "3": {
+      "item": "eternal:tin_nugget"
+    },
+    "4": {
+      "item": "eternal:tin_nugget"
+    },
+    "5": {
+      "item": "eternal:tin_nugget"
+    },
+    "6": {
+      "item": "eternal:tin_nugget"
+    },
+    "7": {
+      "item": "eternal:tin_nugget"
+    },
+    "8": {
+      "item": "eternal:tin_nugget"
+    }
+  },
+  "result": {
+    "item": "eternal:tin_ingot",
+    "count": 1
+  }
+}

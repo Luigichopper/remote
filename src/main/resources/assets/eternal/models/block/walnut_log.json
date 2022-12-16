@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eternal:blocks/walnut_log_top",
+    "up": "eternal:blocks/walnut_log_top",
+    "north": "eternal:blocks/walnut_log_side",
+    "east": "eternal:blocks/walnut_log_side",
+    "south": "eternal:blocks/walnut_log_side",
+    "west": "eternal:blocks/walnut_log_side",
+    "particle": "eternal:blocks/walnut_log_top"
+  },
+  "render_type": "solid"
+}

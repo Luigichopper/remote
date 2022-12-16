@@ -1,0 +1,30 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:AshLeaves"
+      },
+      {
+        "value": "CUSTOM:CherryLeaves"
+      },
+      {
+        "value": "CUSTOM:WalnutLeaves"
+      },
+      {
+        "value": "CUSTOM:MapleLeaves"
+      },
+      {
+        "value": "CUSTOM:BlossomedCherryLeaves"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "leaves",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:walnut_log"
+    }
+  ],
+  "result": {
+    "item": "eternal:walnut_planks",
+    "count": 4
+  }
+}

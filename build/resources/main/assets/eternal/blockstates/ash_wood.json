@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "eternal:block/ash_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "eternal:block/ash_wood"
+    },
+    "axis=z": {
+      "model": "eternal:block/ash_wood",
+      "x": 90
+    }
+  }
+}

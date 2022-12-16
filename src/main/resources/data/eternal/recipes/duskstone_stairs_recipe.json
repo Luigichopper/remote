@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "eternal:duskstone"
+    },
+    "3": {
+      "item": "eternal:duskstone"
+    },
+    "4": {
+      "item": "eternal:duskstone"
+    },
+    "6": {
+      "item": "eternal:duskstone"
+    },
+    "7": {
+      "item": "eternal:duskstone"
+    },
+    "8": {
+      "item": "eternal:duskstone"
+    }
+  },
+  "result": {
+    "item": "eternal:duskstone_stairs",
+    "count": 4
+  }
+}

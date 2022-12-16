@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "eternal:blocks/alternate_dirt_1",
+    "particle": "eternal:blocks/alternate_dirt_1"
+  },
+  "render_type": "solid"
+}

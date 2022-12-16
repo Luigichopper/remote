@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "eternal:maple_log",
+    "eternal:ash_log",
+    "eternal:walnut_log",
+    "eternal:cherry_log"
+  ]
+}

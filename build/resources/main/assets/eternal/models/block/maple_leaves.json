@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "eternal:blocks/maple_leaves",
+    "particle": "eternal:blocks/maple_leaves"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "eternal:blocks/blossom_leaves",
+    "particle": "eternal:blocks/blossom_leaves"
+  }
+}

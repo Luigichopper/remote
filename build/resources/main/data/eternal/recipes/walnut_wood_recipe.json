@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "eternal:walnut_log"
+    },
+    "1": {
+      "item": "eternal:walnut_log"
+    },
+    "2": {
+      "item": "eternal:walnut_log"
+    },
+    "3": {
+      "item": "eternal:walnut_log"
+    }
+  },
+  "result": {
+    "item": "eternal:walnut_wood",
+    "count": 3
+  }
+}
