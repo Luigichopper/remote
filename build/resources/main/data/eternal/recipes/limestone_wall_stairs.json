@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "eternal:limestone"
+    },
+    "1": {
+      "item": "eternal:limestone"
+    },
+    "2": {
+      "item": "eternal:limestone"
+    },
+    "3": {
+      "item": "eternal:limestone"
+    },
+    "4": {
+      "item": "eternal:limestone"
+    },
+    "5": {
+      "item": "eternal:limestone"
+    }
+  },
+  "result": {
+    "item": "eternal:limestone_wall",
+    "count": 6
+  }
+}

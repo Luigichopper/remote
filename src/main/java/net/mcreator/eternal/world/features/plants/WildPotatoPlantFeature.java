@@ -33,8 +33,8 @@ public class WildPotatoPlantFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new WildPotatoPlantFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("eternal:wild_potato_plant", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(EternalModBlocks.WILD_POTATO_PLANT.get())), List.of(), 4));
-		PLACED_FEATURE = PlacementUtils.register("eternal:wild_potato_plant", CONFIGURED_FEATURE, List.of(CountPlacement.of(4),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(EternalModBlocks.WILD_POTATO_PLANT.get())), List.of(), 8));
+		PLACED_FEATURE = PlacementUtils.register("eternal:wild_potato_plant", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

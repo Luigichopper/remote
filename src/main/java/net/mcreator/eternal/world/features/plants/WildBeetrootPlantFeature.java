@@ -33,8 +33,8 @@ public class WildBeetrootPlantFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new WildBeetrootPlantFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("eternal:wild_beetroot_plant", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(EternalModBlocks.WILD_BEETROOT_PLANT.get())), List.of(), 4));
-		PLACED_FEATURE = PlacementUtils.register("eternal:wild_beetroot_plant", CONFIGURED_FEATURE, List.of(CountPlacement.of(4),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(EternalModBlocks.WILD_BEETROOT_PLANT.get())), List.of(), 8));
+		PLACED_FEATURE = PlacementUtils.register("eternal:wild_beetroot_plant", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

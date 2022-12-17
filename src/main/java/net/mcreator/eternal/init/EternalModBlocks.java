@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.eternal.block.WildPotatoPlantBlock;
+import net.mcreator.eternal.block.WildLettusPlantBlock;
 import net.mcreator.eternal.block.WildCarrotPlantBlock;
 import net.mcreator.eternal.block.WildBeetrootPlantBlock;
 import net.mcreator.eternal.block.WalnutWoodBlock;
@@ -29,6 +30,7 @@ import net.mcreator.eternal.block.WalnutFenceGateBlock;
 import net.mcreator.eternal.block.WalnutFenceBlock;
 import net.mcreator.eternal.block.WalnutButtonBlock;
 import net.mcreator.eternal.block.TinOreBlock;
+import net.mcreator.eternal.block.PolishedLimestoneBlock;
 import net.mcreator.eternal.block.PolishedDuskstoneBricksBlock;
 import net.mcreator.eternal.block.PolishedDuskstoneBlock;
 import net.mcreator.eternal.block.MapleWoodBlock;
@@ -41,6 +43,10 @@ import net.mcreator.eternal.block.MapleLeavesBlock;
 import net.mcreator.eternal.block.MapleFenceGateBlock;
 import net.mcreator.eternal.block.MapleFenceBlock;
 import net.mcreator.eternal.block.MapleButtonBlock;
+import net.mcreator.eternal.block.LimestoneWallBlock;
+import net.mcreator.eternal.block.LimestoneStairsBlock;
+import net.mcreator.eternal.block.LimestoneSlabBlock;
+import net.mcreator.eternal.block.LimestoneBlock;
 import net.mcreator.eternal.block.DuskstoneWallBlock;
 import net.mcreator.eternal.block.DuskstoneStairsBlock;
 import net.mcreator.eternal.block.DuskstoneSlabBlock;
@@ -55,6 +61,8 @@ import net.mcreator.eternal.block.CherryLeavesBlock;
 import net.mcreator.eternal.block.CherryFenceGateBlock;
 import net.mcreator.eternal.block.CherryFenceBlock;
 import net.mcreator.eternal.block.CherryButtonBlock;
+import net.mcreator.eternal.block.BronzeOreBlock;
+import net.mcreator.eternal.block.BronzeBlockBlock;
 import net.mcreator.eternal.block.BlossomedCherryLeavesBlock;
 import net.mcreator.eternal.block.AshWoodBlock;
 import net.mcreator.eternal.block.AshStairsBlock;
@@ -140,6 +148,14 @@ public class EternalModBlocks {
 	public static final RegistryObject<Block> WILD_CARROT_PLANT = REGISTRY.register("wild_carrot_plant", () -> new WildCarrotPlantBlock());
 	public static final RegistryObject<Block> WILD_POTATO_PLANT = REGISTRY.register("wild_potato_plant", () -> new WildPotatoPlantBlock());
 	public static final RegistryObject<Block> WILD_BEETROOT_PLANT = REGISTRY.register("wild_beetroot_plant", () -> new WildBeetrootPlantBlock());
+	public static final RegistryObject<Block> WILD_LETTUS_PLANT = REGISTRY.register("wild_lettus_plant", () -> new WildLettusPlantBlock());
+	public static final RegistryObject<Block> LIMESTONE = REGISTRY.register("limestone", () -> new LimestoneBlock());
+	public static final RegistryObject<Block> LIMESTONE_SLAB = REGISTRY.register("limestone_slab", () -> new LimestoneSlabBlock());
+	public static final RegistryObject<Block> LIMESTONE_STAIRS = REGISTRY.register("limestone_stairs", () -> new LimestoneStairsBlock());
+	public static final RegistryObject<Block> LIMESTONE_WALL = REGISTRY.register("limestone_wall", () -> new LimestoneWallBlock());
+	public static final RegistryObject<Block> POLISHED_LIMESTONE = REGISTRY.register("polished_limestone", () -> new PolishedLimestoneBlock());
+	public static final RegistryObject<Block> BRONZE_ORE = REGISTRY.register("bronze_ore", () -> new BronzeOreBlock());
+	public static final RegistryObject<Block> BRONZE_BLOCK = REGISTRY.register("bronze_block", () -> new BronzeBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

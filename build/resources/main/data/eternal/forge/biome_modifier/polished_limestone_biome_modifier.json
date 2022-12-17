@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "eternal:polished_limestone",
+  "step": "underground_ores"
+}

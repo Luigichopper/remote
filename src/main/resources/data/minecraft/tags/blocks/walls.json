@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "eternal:duskstone_wall"
+    "eternal:duskstone_wall",
+    "eternal:limestone_wall"
   ]
 }

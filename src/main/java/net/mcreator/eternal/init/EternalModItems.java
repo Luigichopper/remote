@@ -17,9 +17,19 @@ import net.mcreator.eternal.item.WalnutItem;
 import net.mcreator.eternal.item.TinNuggetItem;
 import net.mcreator.eternal.item.TinIngotItem;
 import net.mcreator.eternal.item.RawTinItem;
+import net.mcreator.eternal.item.LimeItem;
+import net.mcreator.eternal.item.LettuceItem;
+import net.mcreator.eternal.item.LemonItem;
 import net.mcreator.eternal.item.GrilledCarrotItem;
 import net.mcreator.eternal.item.ClosedWalnutItem;
 import net.mcreator.eternal.item.CherryItem;
+import net.mcreator.eternal.item.BronzeSwordItem;
+import net.mcreator.eternal.item.BronzeShovelItem;
+import net.mcreator.eternal.item.BronzePickaxeItem;
+import net.mcreator.eternal.item.BronzeIngotItem;
+import net.mcreator.eternal.item.BronzeHoeItem;
+import net.mcreator.eternal.item.BronzeAxeItem;
+import net.mcreator.eternal.item.BronzeArmorItem;
 import net.mcreator.eternal.EternalMod;
 
 public class EternalModItems {
@@ -92,6 +102,28 @@ public class EternalModItems {
 	public static final RegistryObject<Item> WILD_CARROT_PLANT = block(EternalModBlocks.WILD_CARROT_PLANT, null);
 	public static final RegistryObject<Item> WILD_POTATO_PLANT = block(EternalModBlocks.WILD_POTATO_PLANT, null);
 	public static final RegistryObject<Item> WILD_BEETROOT_PLANT = block(EternalModBlocks.WILD_BEETROOT_PLANT, null);
+	public static final RegistryObject<Item> WILD_LETTUS_PLANT = block(EternalModBlocks.WILD_LETTUS_PLANT, null);
+	public static final RegistryObject<Item> LIMESTONE = block(EternalModBlocks.LIMESTONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LIMESTONE_SLAB = block(EternalModBlocks.LIMESTONE_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LIMESTONE_STAIRS = block(EternalModBlocks.LIMESTONE_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LIMESTONE_WALL = block(EternalModBlocks.LIMESTONE_WALL, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> POLISHED_LIMESTONE = block(EternalModBlocks.POLISHED_LIMESTONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LIME = REGISTRY.register("lime", () -> new LimeItem());
+	public static final RegistryObject<Item> LETTUCE = REGISTRY.register("lettuce", () -> new LettuceItem());
+	public static final RegistryObject<Item> LEMON = REGISTRY.register("lemon", () -> new LemonItem());
+	public static final RegistryObject<Item> BRONZE_INGOT = REGISTRY.register("bronze_ingot", () -> new BronzeIngotItem());
+	public static final RegistryObject<Item> BRONZE_ORE = block(EternalModBlocks.BRONZE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BRONZE_BLOCK = block(EternalModBlocks.BRONZE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BRONZE_PICKAXE = REGISTRY.register("bronze_pickaxe", () -> new BronzePickaxeItem());
+	public static final RegistryObject<Item> BRONZE_AXE = REGISTRY.register("bronze_axe", () -> new BronzeAxeItem());
+	public static final RegistryObject<Item> BRONZE_SWORD = REGISTRY.register("bronze_sword", () -> new BronzeSwordItem());
+	public static final RegistryObject<Item> BRONZE_SHOVEL = REGISTRY.register("bronze_shovel", () -> new BronzeShovelItem());
+	public static final RegistryObject<Item> BRONZE_HOE = REGISTRY.register("bronze_hoe", () -> new BronzeHoeItem());
+	public static final RegistryObject<Item> BRONZE_ARMOR_HELMET = REGISTRY.register("bronze_armor_helmet", () -> new BronzeArmorItem.Helmet());
+	public static final RegistryObject<Item> BRONZE_ARMOR_CHESTPLATE = REGISTRY.register("bronze_armor_chestplate",
+			() -> new BronzeArmorItem.Chestplate());
+	public static final RegistryObject<Item> BRONZE_ARMOR_LEGGINGS = REGISTRY.register("bronze_armor_leggings", () -> new BronzeArmorItem.Leggings());
+	public static final RegistryObject<Item> BRONZE_ARMOR_BOOTS = REGISTRY.register("bronze_armor_boots", () -> new BronzeArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

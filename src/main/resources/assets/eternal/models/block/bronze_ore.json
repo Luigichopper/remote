@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "eternal:blocks/bronze_ore",
+    "particle": "eternal:blocks/bronze_ore"
+  },
+  "render_type": "solid"
+}
