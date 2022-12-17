@@ -927,6 +927,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wild_carrot_plant"
+    },
+    {
+      "name": "WildPotatoPlant",
+      "type": "plant",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_potato_plant"
+    },
+    {
+      "name": "WildBeetrootPlant",
+      "type": "plant",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_beetroot_plant"
     }
   ],
   "variable_elements": [],
@@ -966,6 +982,7 @@
       "block.eternal.tin_ore": "Tin Ore",
       "item.eternal.tin_ingot": "Tin Ingot",
       "block.eternal.maple_pressure_plate": "Maple Pressure Plate",
+      "block.eternal.wild_potato_plant": "Wild Potato Plant",
       "block.eternal.maple_wood": "Maple Wood",
       "block.eternal.walnut_wood": "Walnut Wood",
       "block.eternal.ash_stairs": "Ash Stairs",
@@ -980,6 +997,7 @@
       "block.eternal.alternate_stone_2": "Stone",
       "block.eternal.alternate_stone_1": "Stone",
       "block.eternal.maple_stairs": "Maple Stairs",
+      "block.eternal.wild_beetroot_plant": "Wild Beetroot Plant",
       "block.eternal.polished_duskstone_bricks": "Duskstone",
       "block.eternal.walnut_log": "Walnut Log",
       "block.eternal.cherry_slab": "Cherry Slab",
