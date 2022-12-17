@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.eternal.world.features.plants.WildPotatoPlantFeature;
+import net.mcreator.eternal.world.features.plants.WildLettusPlantFeature;
 import net.mcreator.eternal.world.features.plants.WildCarrotPlantFeature;
 import net.mcreator.eternal.world.features.plants.WildBeetrootPlantFeature;
 import net.mcreator.eternal.world.features.ores.WalnutWalnutLeavesFeature;
@@ -44,4 +45,5 @@ public class EternalModFeatures {
 	public static final RegistryObject<Feature<?>> WILD_CARROT_PLANT = REGISTRY.register("wild_carrot_plant", WildCarrotPlantFeature::feature);
 	public static final RegistryObject<Feature<?>> WILD_POTATO_PLANT = REGISTRY.register("wild_potato_plant", WildPotatoPlantFeature::feature);
 	public static final RegistryObject<Feature<?>> WILD_BEETROOT_PLANT = REGISTRY.register("wild_beetroot_plant", WildBeetrootPlantFeature::feature);
+	public static final RegistryObject<Feature<?>> WILD_LETTUS_PLANT = REGISTRY.register("wild_lettus_plant", WildLettusPlantFeature::feature);
 }

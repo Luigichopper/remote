@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.eternal.block.WildPotatoPlantBlock;
+import net.mcreator.eternal.block.WildLettusPlantBlock;
 import net.mcreator.eternal.block.WildCarrotPlantBlock;
 import net.mcreator.eternal.block.WildBeetrootPlantBlock;
 import net.mcreator.eternal.block.WalnutWoodBlock;
@@ -140,6 +141,7 @@ public class EternalModBlocks {
 	public static final RegistryObject<Block> WILD_CARROT_PLANT = REGISTRY.register("wild_carrot_plant", () -> new WildCarrotPlantBlock());
 	public static final RegistryObject<Block> WILD_POTATO_PLANT = REGISTRY.register("wild_potato_plant", () -> new WildPotatoPlantBlock());
 	public static final RegistryObject<Block> WILD_BEETROOT_PLANT = REGISTRY.register("wild_beetroot_plant", () -> new WildBeetrootPlantBlock());
+	public static final RegistryObject<Block> WILD_LETTUS_PLANT = REGISTRY.register("wild_lettus_plant", () -> new WildLettusPlantBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

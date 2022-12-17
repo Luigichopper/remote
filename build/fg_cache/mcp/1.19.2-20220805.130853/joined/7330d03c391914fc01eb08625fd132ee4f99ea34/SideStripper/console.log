@@ -1,0 +1,9 @@
+JVM:         C:\Users\Lenovo\OneDrive\Documents\MCreator.2022.3.Windows.64bit\MCreator20223\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\AccessTransformer\output.jar", "--output", "C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\SideStripper\output.jar", "--data", "C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\SideStripper\string_data.sas"
+Classpath:   C:\Users\Lenovo\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\AccessTransformer\output.jar
+Output: C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\SideStripper\output.jar
+Data:   C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\SideStripper\string_data.sas

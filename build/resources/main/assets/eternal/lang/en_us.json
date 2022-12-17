@@ -1,7 +1,8 @@
 {
+  "block.eternal.wild_lettus_plant": "Wild Beetroot Plant",
   "block.eternal.cherry_leaves": "Cherry Leaves",
-  "block.eternal.walnut_leaves": "Walnut Leaves",
   "block.eternal.cherry_fence_gate": "Cherry Fence Gate",
+  "block.eternal.walnut_leaves": "Walnut Leaves",
   "item.eternal.raw_tin": "Raw Tin",
   "block.eternal.cherry_planks": "Cherry Planks",
   "biome.eternal.maple_forest": "Maple Forest",
@@ -16,6 +17,7 @@
   "block.eternal.polished_duskstone": "Duskstone",
   "block.eternal.maple_button": "Maple Button",
   "block.eternal.ash_button": "Ash Button",
+  "item.eternal.lettus": "Lettus",
   "item.eternal.grilled_carrot": "Grilled Carrot",
   "block.eternal.ash_leaves": "Ash Leaves",
   "block.eternal.ash_planks": "Ash Planks",

@@ -17,6 +17,7 @@ import net.mcreator.eternal.item.WalnutItem;
 import net.mcreator.eternal.item.TinNuggetItem;
 import net.mcreator.eternal.item.TinIngotItem;
 import net.mcreator.eternal.item.RawTinItem;
+import net.mcreator.eternal.item.LettusItem;
 import net.mcreator.eternal.item.GrilledCarrotItem;
 import net.mcreator.eternal.item.ClosedWalnutItem;
 import net.mcreator.eternal.item.CherryItem;
@@ -92,6 +93,8 @@ public class EternalModItems {
 	public static final RegistryObject<Item> WILD_CARROT_PLANT = block(EternalModBlocks.WILD_CARROT_PLANT, null);
 	public static final RegistryObject<Item> WILD_POTATO_PLANT = block(EternalModBlocks.WILD_POTATO_PLANT, null);
 	public static final RegistryObject<Item> WILD_BEETROOT_PLANT = block(EternalModBlocks.WILD_BEETROOT_PLANT, null);
+	public static final RegistryObject<Item> LETTUS = REGISTRY.register("lettus", () -> new LettusItem());
+	public static final RegistryObject<Item> WILD_LETTUS_PLANT = block(EternalModBlocks.WILD_LETTUS_PLANT, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,6 @@
+JVM:         C:\Users\Lenovo\OneDrive\Documents\MCreator.2022.3.Windows.64bit\MCreator20223\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\stripClient\output.jar", "--server", "C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\stripServer\output.jar", "--ann", "1.19.2", "--output", "C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\Lenovo\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

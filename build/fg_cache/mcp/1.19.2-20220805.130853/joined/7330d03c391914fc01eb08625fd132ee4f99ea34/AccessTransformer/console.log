@@ -1,0 +1,6 @@
+JVM:         C:\Users\Lenovo\OneDrive\Documents\MCreator.2022.3.Windows.64bit\MCreator20223\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\rename\output.jar", "--outJar", "C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\AccessTransformer\output.jar", "--atFile", "C:\Users\Lenovo\MCreatorWorkspaces\eternal\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\Lenovo\AppData\Local\Temp\FG_ats_4253420349925704321.cfg"
+Classpath:   C:\Users\Lenovo\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: C:\Users\Lenovo\MCreatorWorkspaces\eternal\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7330d03c391914fc01eb08625fd132ee4f99ea34\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor
