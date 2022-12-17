@@ -935,6 +935,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wild_potato_plant"
+    },
+    {
+      "name": "WildBeetrootPlant",
+      "type": "plant",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_beetroot_plant"
     }
   ],
   "variable_elements": [],
@@ -942,8 +950,8 @@
   "language_map": {
     "en_us": {
       "block.eternal.cherry_leaves": "Cherry Leaves",
-      "block.eternal.walnut_leaves": "Walnut Leaves",
       "block.eternal.cherry_fence_gate": "Cherry Fence Gate",
+      "block.eternal.walnut_leaves": "Walnut Leaves",
       "item.eternal.raw_tin": "Raw Tin",
       "block.eternal.cherry_planks": "Cherry Planks",
       "biome.eternal.maple_forest": "Maple Forest",
@@ -989,6 +997,7 @@
       "block.eternal.alternate_stone_2": "Stone",
       "block.eternal.alternate_stone_1": "Stone",
       "block.eternal.maple_stairs": "Maple Stairs",
+      "block.eternal.wild_beetroot_plant": "Wild Beetroot Plant",
       "block.eternal.polished_duskstone_bricks": "Duskstone",
       "block.eternal.walnut_log": "Walnut Log",
       "block.eternal.cherry_slab": "Cherry Slab",
