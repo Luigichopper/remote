@@ -1,14 +1,7 @@
 
 package net.mcreator.eternal.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-
-import net.mcreator.eternal.init.EternalModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class BronzePickaxeItem extends PickaxeItem {
 	public BronzePickaxeItem() {

@@ -7,26 +7,26 @@
   ],
   "key": {
     "0": {
-      "item": "eternal:limestone"
+      "item": "eternal:deleted_mod_element"
     },
     "3": {
-      "item": "eternal:limestone"
+      "item": "eternal:deleted_mod_element"
     },
     "4": {
-      "item": "eternal:limestone"
+      "item": "eternal:deleted_mod_element"
     },
     "6": {
-      "item": "eternal:limestone"
+      "item": "eternal:deleted_mod_element"
     },
     "7": {
-      "item": "eternal:limestone"
+      "item": "eternal:deleted_mod_element"
     },
     "8": {
-      "item": "eternal:limestone"
+      "item": "eternal:deleted_mod_element"
     }
   },
   "result": {
-    "item": "eternal:limestone_stairs",
+    "item": "eternal:deleted_mod_element",
     "count": 4
   }
 }

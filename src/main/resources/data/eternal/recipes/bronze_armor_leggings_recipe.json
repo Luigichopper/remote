@@ -7,29 +7,29 @@
   ],
   "key": {
     "0": {
-      "item": "eternal:bronze_ingot"
+      "item": "eternal:deleted_mod_element"
     },
     "1": {
-      "item": "eternal:bronze_ingot"
+      "item": "eternal:deleted_mod_element"
     },
     "2": {
-      "item": "eternal:bronze_ingot"
+      "item": "eternal:deleted_mod_element"
     },
     "3": {
-      "item": "eternal:bronze_ingot"
+      "item": "eternal:deleted_mod_element"
     },
     "5": {
-      "item": "eternal:bronze_ingot"
+      "item": "eternal:deleted_mod_element"
     },
     "6": {
-      "item": "eternal:bronze_ingot"
+      "item": "eternal:deleted_mod_element"
     },
     "8": {
-      "item": "eternal:bronze_ingot"
+      "item": "eternal:deleted_mod_element"
     }
   },
   "result": {
-    "item": "eternal:bronze_armor_leggings",
+    "item": "eternal:deleted_mod_element_leggings",
     "count": 1
   }
 }

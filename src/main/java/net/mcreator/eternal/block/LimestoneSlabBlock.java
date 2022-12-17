@@ -1,25 +1,17 @@
 
 package net.mcreator.eternal.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.properties.SlabType;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TieredItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.core.BlockPos;
 
-import java.util.List;
-import java.util.Collections;
+public class LimestoneSlabBlock extends SlabBlock
 
-public class LimestoneSlabBlock extends SlabBlock {
+{
+
 	public LimestoneSlabBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 6f).requiresCorrectToolForDrops().dynamicShape());
+
 	}
 
 	@Override
@@ -36,4 +28,5 @@ public class LimestoneSlabBlock extends SlabBlock {
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, state.getValue(TYPE) == SlabType.DOUBLE ? 2 : 1));
 	}
+
 }
