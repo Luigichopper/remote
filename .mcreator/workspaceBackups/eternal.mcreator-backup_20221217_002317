@@ -945,14 +945,6 @@
       "registry_name": "wild_beetroot_plant"
     },
     {
-      "name": "Lettus",
-      "type": "item",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lettus"
-    },
-    {
       "name": "WildLettusPlant",
       "type": "plant",
       "sortid": 123,
@@ -1047,6 +1039,228 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "limestone_recipe"
+    },
+    {
+      "name": "PolishedLimestone",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_limestone"
+    },
+    {
+      "name": "PolishedLimestoneRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_limestone_recipe"
+    },
+    {
+      "name": "PolishedLimestoneStonecutting",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_limestone_stonecutting"
+    },
+    {
+      "name": "Lime",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime"
+    },
+    {
+      "name": "Lettuce",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce"
+    },
+    {
+      "name": "Lemon",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot"
+    },
+    {
+      "name": "BronzeOre",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore"
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block"
+    },
+    {
+      "name": "BronzeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore_block_recipe"
+    },
+    {
+      "name": "BronzeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block_ore_recipe"
+    },
+    {
+      "name": "BronzeOreSmelting",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore_smelting"
+    },
+    {
+      "name": "BronzePickaxe",
+      "type": "tool",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_pickaxe"
+    },
+    {
+      "name": "BronzeAxe",
+      "type": "tool",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_axe"
+    },
+    {
+      "name": "BronzeSword",
+      "type": "tool",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_sword"
+    },
+    {
+      "name": "BronzeShovel",
+      "type": "tool",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_shovel"
+    },
+    {
+      "name": "BronzeHoe",
+      "type": "tool",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_hoe"
+    },
+    {
+      "name": "BronzePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_pickaxe_recipe"
+    },
+    {
+      "name": "BronzeAxeRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_axe_recipe"
+    },
+    {
+      "name": "BronzeSwordRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_sword_recipe"
+    },
+    {
+      "name": "BronzeShovelRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_shovel_recipe"
+    },
+    {
+      "name": "BronzeHoeRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_hoe_recipe"
+    },
+    {
+      "name": "BronzeArmor",
+      "type": "armor",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BronzeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_helmet_recipe"
+    },
+    {
+      "name": "BronzeArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_body_recipe"
+    },
+    {
+      "name": "BronzeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_leggings_recipe"
+    },
+    {
+      "name": "BronzeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -1057,11 +1271,15 @@
       "block.eternal.cherry_leaves": "Cherry Leaves",
       "block.eternal.cherry_fence_gate": "Cherry Fence Gate",
       "block.eternal.walnut_leaves": "Walnut Leaves",
+      "block.eternal.polished_limestone": "Polished Limestone",
       "item.eternal.raw_tin": "Raw Tin",
       "block.eternal.cherry_planks": "Cherry Planks",
       "block.eternal.limestone_wall": "Limestone Wall",
+      "item.eternal.bronze_armor_chestplate": "Bronze Chestplate",
       "biome.eternal.maple_forest": "Maple Forest",
       "block.eternal.duskstone_slab": "Duskstone Slab",
+      "block.eternal.bronze_ore": "Bronze Ore",
+      "item.eternal.bronze_axe": "Bronze Axe",
       "block.eternal.cherry_fence": "Cherry Fence",
       "block.eternal.walnut_stairs": "Walnut Stairs",
       "block.eternal.limestone_stairs": "Limestone Stairs",
@@ -1070,20 +1288,23 @@
       "block.eternal.walnut_walnut_leaves": "Walnut Leaves",
       "block.eternal.duskstone_wall": "Duskstone Wall",
       "block.eternal.walnut_planks": "Walnut Planks",
+      "item.eternal.lemon": "Lemon",
       "block.eternal.polished_duskstone": "Duskstone",
       "block.eternal.maple_button": "Maple Button",
       "block.eternal.ash_button": "Ash Button",
-      "item.eternal.lettus": "Lettus",
       "item.eternal.grilled_carrot": "Grilled Carrot",
       "block.eternal.ash_leaves": "Ash Leaves",
+      "item.eternal.bronze_pickaxe": "Bronze Pickaxe",
       "block.eternal.ash_planks": "Ash Planks",
       "block.eternal.cherry_stairs": "Cherry Stairs",
+      "item.eternal.bronze_armor_helmet": "Bronze Helmet",
       "block.eternal.maple_slab": "Maple Slab",
       "block.eternal.duskstone": "Duskstone",
       "block.eternal.maple_log": "Maple Log",
       "block.eternal.ash_log": "Ash Log",
       "block.eternal.ash_fence": "Ash Fence",
       "block.eternal.ash_fence_gate": "Ash Fence Gate",
+      "item.eternal.bronze_ingot": "Bronze",
       "block.eternal.walnut_slab": "Walnut Slab",
       "block.eternal.walnut_fence": "Walnut Fence",
       "block.eternal.cherry_log": "Cherry Log",
@@ -1095,18 +1316,23 @@
       "block.eternal.walnut_wood": "Walnut Wood",
       "block.eternal.ash_stairs": "Ash Stairs",
       "block.eternal.maple_planks": "Maple Planks",
+      "item.eternal.bronze_hoe": "Bronze Hoe",
       "block.eternal.limestone": "Limestone",
+      "item.eternal.bronze_shovel": "Bronze Shovel",
       "block.eternal.ash_pressure_plate": "Ash Pressure Plate",
       "block.eternal.wild_carrot_plant": "Wild Carrot Plant",
       "block.eternal.duskstone_stairs": "Duskstone Stairs",
       "block.eternal.walnut_button": "Walnut Button",
       "block.eternal.cherry_button": "Cherry Button",
       "item.eternal.closed_walnut": "Walnut",
+      "item.eternal.bronze_armor_boots": "Bronze Boots",
       "block.eternal.maple_leaves": "Maple Leaves",
       "block.eternal.alternate_stone_2": "Stone",
       "block.eternal.alternate_stone_1": "Stone",
+      "block.eternal.bronze_block": "Block of Bronze",
       "block.eternal.maple_stairs": "Maple Stairs",
       "block.eternal.wild_beetroot_plant": "Wild Beetroot Plant",
+      "item.eternal.lime": "Lime",
       "block.eternal.polished_duskstone_bricks": "Duskstone",
       "block.eternal.walnut_log": "Walnut Log",
       "block.eternal.cherry_slab": "Cherry Slab",
@@ -1121,7 +1347,10 @@
       "block.eternal.alternate_oak_wood": "Oak Wood",
       "item.eternal.cherry": "Cherry",
       "block.eternal.cherry_wood": "Cherry Wood",
+      "item.eternal.bronze_sword": "Bronze Sword",
       "block.eternal.ash_slab": "Ash Slab",
+      "item.eternal.lettuce": "Lettuce",
+      "item.eternal.bronze_armor_leggings": "Bronze Leggings",
       "item.eternal.tin_nugget": "Tin Nugget",
       "block.eternal.walnut_pressure_plate": "Walnut Pressure Plate",
       "item.eternal.walnut": "Cracked Walnut",
