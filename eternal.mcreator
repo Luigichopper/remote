@@ -972,7 +972,7 @@
       "name": "Limestone",
       "type": "block",
       "sortid": 124,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "limestone"
     },
@@ -980,7 +980,7 @@
       "name": "LimestoneSlab",
       "type": "block",
       "sortid": 125,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "limestone_slab"
     },
@@ -996,7 +996,7 @@
       "name": "Lemon",
       "type": "item",
       "sortid": 140,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lemon"
     },
@@ -1012,7 +1012,7 @@
       "name": "LimestoneStairs",
       "type": "block",
       "sortid": 126,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "limestone_stairs"
     },
@@ -1060,7 +1060,7 @@
       "name": "Lettuce",
       "type": "item",
       "sortid": 139,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lettuce"
     },
@@ -1100,7 +1100,7 @@
       "name": "BronzeArmor",
       "type": "armor",
       "sortid": 157,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bronze_armor",
       "metadata": {
@@ -1162,7 +1162,7 @@
       "name": "BronzePickaxe",
       "type": "tool",
       "sortid": 147,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bronze_pickaxe"
     },
@@ -1186,7 +1186,7 @@
       "name": "PolishedLimestone",
       "type": "block",
       "sortid": 135,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "polished_limestone"
     },
@@ -1194,7 +1194,7 @@
       "name": "WildLettusPlant",
       "type": "plant",
       "sortid": 123,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "wild_lettus_plant"
     },
@@ -1202,7 +1202,7 @@
       "name": "BronzeAxe",
       "type": "tool",
       "sortid": 148,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bronze_axe"
     },
@@ -1242,7 +1242,7 @@
       "name": "BronzeHoe",
       "type": "tool",
       "sortid": 151,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bronze_hoe"
     },
@@ -1314,6 +1314,7 @@
       "block.eternal.maple_leaves": "Maple Leaves",
       "block.eternal.alternate_stone_2": "Stone",
       "block.eternal.alternate_stone_1": "Stone",
+      "block.eternal.bronze_block": "Block of Bronze",
       "block.eternal.maple_stairs": "Maple Stairs",
       "block.eternal.wild_beetroot_plant": "Wild Beetroot Plant",
       "block.eternal.polished_duskstone_bricks": "Duskstone",
