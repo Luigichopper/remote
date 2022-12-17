@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "eternal:limestone"
+    },
+    "1": {
+      "item": "eternal:limestone"
+    },
+    "2": {
+      "item": "eternal:limestone"
+    }
+  },
+  "result": {
+    "item": "eternal:limestone_slab",
+    "count": 6
+  }
+}

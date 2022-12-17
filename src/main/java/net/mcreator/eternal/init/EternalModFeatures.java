@@ -17,6 +17,12 @@ import net.mcreator.eternal.world.features.plants.WildCarrotPlantFeature;
 import net.mcreator.eternal.world.features.plants.WildBeetrootPlantFeature;
 import net.mcreator.eternal.world.features.ores.WalnutWalnutLeavesFeature;
 import net.mcreator.eternal.world.features.ores.TinOreFeature;
+import net.mcreator.eternal.world.features.ores.PolishedLimestoneFeature;
+import net.mcreator.eternal.world.features.ores.LimestoneWallFeature;
+import net.mcreator.eternal.world.features.ores.LimestoneStairsFeature;
+import net.mcreator.eternal.world.features.ores.LimestoneSlabFeature;
+import net.mcreator.eternal.world.features.ores.LimestoneFeature;
+import net.mcreator.eternal.world.features.ores.BronzeOreFeature;
 import net.mcreator.eternal.world.features.ores.BlossomedCherryLeavesFeature;
 import net.mcreator.eternal.world.features.ores.AlternateStone2Feature;
 import net.mcreator.eternal.world.features.ores.AlternateStone1Feature;
@@ -46,4 +52,10 @@ public class EternalModFeatures {
 	public static final RegistryObject<Feature<?>> WILD_POTATO_PLANT = REGISTRY.register("wild_potato_plant", WildPotatoPlantFeature::feature);
 	public static final RegistryObject<Feature<?>> WILD_BEETROOT_PLANT = REGISTRY.register("wild_beetroot_plant", WildBeetrootPlantFeature::feature);
 	public static final RegistryObject<Feature<?>> WILD_LETTUS_PLANT = REGISTRY.register("wild_lettus_plant", WildLettusPlantFeature::feature);
+	public static final RegistryObject<Feature<?>> LIMESTONE = REGISTRY.register("limestone", LimestoneFeature::feature);
+	public static final RegistryObject<Feature<?>> LIMESTONE_SLAB = REGISTRY.register("limestone_slab", LimestoneSlabFeature::feature);
+	public static final RegistryObject<Feature<?>> LIMESTONE_STAIRS = REGISTRY.register("limestone_stairs", LimestoneStairsFeature::feature);
+	public static final RegistryObject<Feature<?>> LIMESTONE_WALL = REGISTRY.register("limestone_wall", LimestoneWallFeature::feature);
+	public static final RegistryObject<Feature<?>> POLISHED_LIMESTONE = REGISTRY.register("polished_limestone", PolishedLimestoneFeature::feature);
+	public static final RegistryObject<Feature<?>> BRONZE_ORE = REGISTRY.register("bronze_ore", BronzeOreFeature::feature);
 }

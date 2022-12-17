@@ -43,6 +43,6 @@ public class WildLettusPlantBlock extends FlowerBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(EternalModItems.LETTUS.get()));
+		return Collections.singletonList(new ItemStack(EternalModItems.LETTUCE.get()));
 	}
 }

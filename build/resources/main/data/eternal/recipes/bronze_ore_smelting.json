@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "eternal:bronze_ore"
+  },
+  "result": "eternal:bronze_ingot"
+}

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "cherry",
+    "texture": "cherryrenewed",
     "customModelName": "Normal",
     "name": "Cherry",
     "rarity": "COMMON",

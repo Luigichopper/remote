@@ -2,6 +2,13 @@
   "replace": false,
   "values": [
     "eternal:alternate_stone_1",
-    "eternal:alternate_stone_2"
+    "eternal:alternate_stone_2",
+    "eternal:limestone",
+    "eternal:limestone_slab",
+    "eternal:limestone_stairs",
+    "eternal:limestone_wall",
+    "eternal:polished_limestone",
+    "eternal:bronze_ore",
+    "eternal:bronze_block"
   ]
 }

@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 13,
-    "texture": "lettus_stage3",
+    "texture": "lettucerenewed-animated-3",
     "textureBottom": "",
     "customModelName": "Crop model",
     "itemTexture": "",
@@ -61,7 +61,7 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": "CUSTOM:Lettus"
+      "value": "CUSTOM:Lettuce"
     },
     "dropAmount": 1,
     "forceTicking": false,

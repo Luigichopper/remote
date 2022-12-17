@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eternal:limestone"
+    },
+    {
+      "item": "eternal:limestone"
+    },
+    {
+      "item": "eternal:limestone"
+    },
+    {
+      "item": "eternal:limestone"
+    }
+  ],
+  "result": {
+    "item": "eternal:polished_limestone",
+    "count": 4
+  }
+}
