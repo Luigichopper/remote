@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "eternal:blocks/lettucerenewed_stage1",
+    "particle": "eternal:blocks/lettucerenewed_stage1"
+  },
+  "render_type": "cutout"
+}

@@ -7,10 +7,10 @@
   ],
   "key": {
     "0": {
-      "item": "eternal:deleted_mod_element"
+      "item": "eternal:bronze_ingot"
     },
     "1": {
-      "item": "eternal:deleted_mod_element"
+      "item": "eternal:bronze_ingot"
     },
     "3": {
       "item": "minecraft:stick"
@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "eternal:deleted_mod_element",
+    "item": "eternal:bronze_hoe",
     "count": 1
   }
 }

@@ -29,9 +29,14 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.eternal.init.EternalModMobEffects;
 import net.mcreator.eternal.init.EternalModItems;
+import net.mcreator.eternal.init.EternalModFluids;
+import net.mcreator.eternal.init.EternalModFluidTypes;
 import net.mcreator.eternal.init.EternalModFeatures;
+import net.mcreator.eternal.init.EternalModEntities;
 import net.mcreator.eternal.init.EternalModBlocks;
+import net.mcreator.eternal.init.EternalModBlockEntities;
 import net.mcreator.eternal.init.EternalModBiomes;
 
 import java.util.function.Supplier;
@@ -53,8 +58,13 @@ public class EternalMod {
 
 		EternalModBlocks.REGISTRY.register(bus);
 		EternalModItems.REGISTRY.register(bus);
-
+		EternalModEntities.REGISTRY.register(bus);
+		EternalModBlockEntities.REGISTRY.register(bus);
 		EternalModFeatures.REGISTRY.register(bus);
+		EternalModFluids.REGISTRY.register(bus);
+		EternalModFluidTypes.REGISTRY.register(bus);
+
+		EternalModMobEffects.REGISTRY.register(bus);
 
 		EternalModBiomes.REGISTRY.register(bus);
 	}

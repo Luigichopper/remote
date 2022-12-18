@@ -34,7 +34,7 @@ public class TinOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new TinOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("eternal:tin_ore", FEATURE, new OreConfiguration(List.of(OreConfiguration
-				.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), EternalModBlocks.TIN_ORE.get().defaultBlockState())), 16));
+				.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), EternalModBlocks.TIN_ORE.get().defaultBlockState())), 4));
 		PLACED_FEATURE = PlacementUtils.register("eternal:tin_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(20), InSquarePlacement.spread(),
 				HeightRangePlacement.triangle(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
 		return FEATURE;

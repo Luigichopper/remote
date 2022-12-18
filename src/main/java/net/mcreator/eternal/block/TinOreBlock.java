@@ -31,6 +31,6 @@ public class TinOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(EternalModItems.RAW_TIN.get()));
+		return Collections.singletonList(new ItemStack(EternalModItems.RAW_TIN.get(), 2));
 	}
 }

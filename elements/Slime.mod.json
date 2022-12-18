@@ -1,0 +1,49 @@
+{
+  "_fv": 34,
+  "_type": "fluid",
+  "definition": {
+    "name": "Liquid Slime",
+    "bucketName": "Slime Bucket",
+    "textureStill": "slime_liquid_still",
+    "textureFlowing": "slime_liquid",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 3,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "SLIME"
+    },
+    "flowStrength": 0.30000000000000004,
+    "luminosity": 0,
+    "density": 32000,
+    "viscosity": 16000,
+    "temperature": 128,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": "entity.slime.squish"
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 164.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "GREEN",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "SlimeMobplayerCollidesBlock"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:TinIngot"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:BronzeIngot"
+    },
+    "name": "bronze_ingot_smithing",
+    "namespace": "mod"
+  }
+}

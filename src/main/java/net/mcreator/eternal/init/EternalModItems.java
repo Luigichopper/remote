@@ -7,6 +7,7 @@ package net.mcreator.eternal.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -16,11 +17,16 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.eternal.item.WalnutItem;
 import net.mcreator.eternal.item.TinNuggetItem;
 import net.mcreator.eternal.item.TinIngotItem;
+import net.mcreator.eternal.item.SlimeItem;
+import net.mcreator.eternal.item.SlimeBottleItem;
 import net.mcreator.eternal.item.RawTinItem;
 import net.mcreator.eternal.item.LimeItem;
+import net.mcreator.eternal.item.LettuceSeedsItem;
 import net.mcreator.eternal.item.LettuceItem;
 import net.mcreator.eternal.item.LemonItem;
 import net.mcreator.eternal.item.GrilledCarrotItem;
+import net.mcreator.eternal.item.CrystallizedSlimeItem;
+import net.mcreator.eternal.item.CrystallizedHoneyItem;
 import net.mcreator.eternal.item.ClosedWalnutItem;
 import net.mcreator.eternal.item.CherryItem;
 import net.mcreator.eternal.item.BronzeSwordItem;
@@ -112,7 +118,6 @@ public class EternalModItems {
 	public static final RegistryObject<Item> LETTUCE = REGISTRY.register("lettuce", () -> new LettuceItem());
 	public static final RegistryObject<Item> LEMON = REGISTRY.register("lemon", () -> new LemonItem());
 	public static final RegistryObject<Item> BRONZE_INGOT = REGISTRY.register("bronze_ingot", () -> new BronzeIngotItem());
-	public static final RegistryObject<Item> BRONZE_ORE = block(EternalModBlocks.BRONZE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BRONZE_BLOCK = block(EternalModBlocks.BRONZE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BRONZE_PICKAXE = REGISTRY.register("bronze_pickaxe", () -> new BronzePickaxeItem());
 	public static final RegistryObject<Item> BRONZE_AXE = REGISTRY.register("bronze_axe", () -> new BronzeAxeItem());
@@ -124,6 +129,16 @@ public class EternalModItems {
 			() -> new BronzeArmorItem.Chestplate());
 	public static final RegistryObject<Item> BRONZE_ARMOR_LEGGINGS = REGISTRY.register("bronze_armor_leggings", () -> new BronzeArmorItem.Leggings());
 	public static final RegistryObject<Item> BRONZE_ARMOR_BOOTS = REGISTRY.register("bronze_armor_boots", () -> new BronzeArmorItem.Boots());
+	public static final RegistryObject<Item> LETTUCE_PLANT_STAGE_0 = block(EternalModBlocks.LETTUCE_PLANT_STAGE_0, null);
+	public static final RegistryObject<Item> LETTUCE_PLANT_STAGE_1 = block(EternalModBlocks.LETTUCE_PLANT_STAGE_1, null);
+	public static final RegistryObject<Item> LETTUCE_PLANT_STAGE_2 = block(EternalModBlocks.LETTUCE_PLANT_STAGE_2, null);
+	public static final RegistryObject<Item> LETTUCE_SEEDS = REGISTRY.register("lettuce_seeds", () -> new LettuceSeedsItem());
+	public static final RegistryObject<Item> SLIME_BOTTLE = REGISTRY.register("slime_bottle", () -> new SlimeBottleItem());
+	public static final RegistryObject<Item> CRYSTALLIZED_SLIME = REGISTRY.register("crystallized_slime", () -> new CrystallizedSlimeItem());
+	public static final RegistryObject<Item> CRYSTALLIZED_HONEY = REGISTRY.register("crystallized_honey", () -> new CrystallizedHoneyItem());
+	public static final RegistryObject<Item> SLIME_BUCKET = REGISTRY.register("slime_bucket", () -> new SlimeItem());
+	public static final RegistryObject<Item> ZOMBIE_ARCHER = REGISTRY.register("zombie_archer_spawn_egg",
+			() -> new ForgeSpawnEggItem(EternalModEntities.ZOMBIE_ARCHER, -14130157, -15722173, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

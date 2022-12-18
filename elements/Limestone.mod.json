@@ -133,7 +133,7 @@
       }
     ],
     "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 16,
+    "frequencyPerChunks": 8,
     "frequencyOnChunk": 24,
     "minGenerateHeight": -16,
     "maxGenerateHeight": 128
