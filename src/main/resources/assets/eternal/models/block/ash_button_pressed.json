@@ -1,7 +1,0 @@
-{
-  "parent": "block/button_pressed",
-  "textures": {
-    "texture": "eternal:blocks/ash_planks"
-  },
-  "render_type": "solid"
-}

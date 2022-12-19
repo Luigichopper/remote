@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "eternal:blocks/white_concrete",
+    "top": "eternal:blocks/white_concrete",
+    "side": "eternal:blocks/white_concrete"
+  },
+  "render_type": "solid"
+}

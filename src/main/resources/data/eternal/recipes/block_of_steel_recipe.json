@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "eternal:steel_ingot"
+    },
+    "1": {
+      "item": "eternal:steel_ingot"
+    },
+    "2": {
+      "item": "eternal:steel_ingot"
+    },
+    "3": {
+      "item": "eternal:steel_ingot"
+    },
+    "4": {
+      "item": "eternal:steel_ingot"
+    },
+    "5": {
+      "item": "eternal:steel_ingot"
+    },
+    "6": {
+      "item": "eternal:steel_ingot"
+    },
+    "7": {
+      "item": "eternal:steel_ingot"
+    },
+    "8": {
+      "item": "eternal:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "eternal:block_of_steel",
+    "count": 1
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "eternal:blocks/ash_planks",
-    "top": "eternal:blocks/ash_planks",
-    "side": "eternal:blocks/ash_planks"
-  },
-  "render_type": "solid"
-}

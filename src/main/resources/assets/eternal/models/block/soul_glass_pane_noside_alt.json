@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "eternal:blocks/soulglass"
+  },
+  "render_type": "translucent"
+}

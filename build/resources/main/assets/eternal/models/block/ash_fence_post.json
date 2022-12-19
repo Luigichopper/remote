@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "eternal:blocks/ash_planks",
-    "particle": "eternal:blocks/ash_planks"
-  },
-  "render_type": "solid"
-}

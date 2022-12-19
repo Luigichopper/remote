@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "eternal:blocks/polished_duskstone_bricks",
-    "particle": "eternal:blocks/polished_duskstone_bricks"
-  },
-  "render_type": "solid"
-}

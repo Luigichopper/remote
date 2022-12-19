@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "eternal:lemon"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "eternal:lemon"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "eternal:lemon_pie",
+    "count": 1
+  }
+}

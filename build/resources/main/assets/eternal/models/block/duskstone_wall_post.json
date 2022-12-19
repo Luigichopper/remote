@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "eternal:blocks/duskstone",
-    "particle": "eternal:blocks/duskstone"
-  },
-  "render_type": "solid"
-}

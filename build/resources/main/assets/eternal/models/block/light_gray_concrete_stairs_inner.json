@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "eternal:blocks/light_gray_concrete",
+    "top": "eternal:blocks/light_gray_concrete",
+    "side": "eternal:blocks/light_gray_concrete"
+  },
+  "render_type": "solid"
+}

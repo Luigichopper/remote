@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "eternal:blocks/red_concrete",
+    "top": "eternal:blocks/red_concrete",
+    "side": "eternal:blocks/red_concrete"
+  },
+  "render_type": "solid"
+}

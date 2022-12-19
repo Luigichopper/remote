@@ -1,9 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "eternal:blocks/duskstone",
-    "top": "eternal:blocks/duskstone",
-    "side": "eternal:blocks/duskstone"
-  },
-  "render_type": "solid"
-}

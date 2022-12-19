@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "eternal:blocks/yellow_concrete",
+    "top": "eternal:blocks/yellow_concrete",
+    "side": "eternal:blocks/yellow_concrete"
+  },
+  "render_type": "solid"
+}

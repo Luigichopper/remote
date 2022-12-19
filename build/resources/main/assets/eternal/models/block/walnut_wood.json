@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "eternal:blocks/walnut_log_side",
-    "particle": "eternal:blocks/walnut_log_side"
-  },
-  "render_type": "solid"
-}

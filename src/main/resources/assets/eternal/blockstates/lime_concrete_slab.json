@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eternal:block/lime_concrete_slab"
+    },
+    "type=top": {
+      "model": "eternal:block/lime_concrete_slab_top"
+    },
+    "type=double": {
+      "model": "eternal:block/lime_concrete_slab_full"
+    }
+  }
+}

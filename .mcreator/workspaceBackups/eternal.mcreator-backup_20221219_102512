@@ -1,0 +1,1620 @@
+{
+  "mod_elements": [
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_blocks"
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot"
+    },
+    {
+      "name": "TinNugget",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_nugget"
+    },
+    {
+      "name": "TinIngotRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_recipe"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore"
+    },
+    {
+      "name": "MapleWood",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_wood"
+    },
+    {
+      "name": "MapleLog",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_log"
+    },
+    {
+      "name": "MaplePlanks",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_planks"
+    },
+    {
+      "name": "MapleLeaves",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_leaves"
+    },
+    {
+      "name": "MapleStairs",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_stairs"
+    },
+    {
+      "name": "MapleSlab",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_slab"
+    },
+    {
+      "name": "MapleFence",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence"
+    },
+    {
+      "name": "MapleFenceGate",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence_gate"
+    },
+    {
+      "name": "MaplePressurePlate",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_pressure_plate"
+    },
+    {
+      "name": "MapleButton",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_button"
+    },
+    {
+      "name": "MapleItemsTag",
+      "type": "tag",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_items_tag"
+    },
+    {
+      "name": "MapleWoodRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_wood_recipe"
+    },
+    {
+      "name": "MaplePlanksRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_planks_recipe"
+    },
+    {
+      "name": "MapleStairsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_stairs_recipe"
+    },
+    {
+      "name": "MapleSlabRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_slab_recipe"
+    },
+    {
+      "name": "MapleFenceRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence_recipe"
+    },
+    {
+      "name": "MapleFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence_gate_recipe"
+    },
+    {
+      "name": "MaplePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_pressure_plate_recipe"
+    },
+    {
+      "name": "MapleButtonRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_button_recipe"
+    },
+    {
+      "name": "MapleStickRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_stick_recipe"
+    },
+    {
+      "name": "MapleForest",
+      "type": "biome",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_forest"
+    },
+    {
+      "name": "CherryWood",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_wood"
+    },
+    {
+      "name": "CherryLog",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_log"
+    },
+    {
+      "name": "CherryPlanks",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_planks"
+    },
+    {
+      "name": "CherryLeaves",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_leaves"
+    },
+    {
+      "name": "CherryStairs",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_stairs"
+    },
+    {
+      "name": "CherrySlab",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_slab"
+    },
+    {
+      "name": "CherryFence",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_fence"
+    },
+    {
+      "name": "CherryFenceGate",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_fence_gate"
+    },
+    {
+      "name": "CherryPressurePlate",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_pressure_plate"
+    },
+    {
+      "name": "CherryButton",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_button"
+    },
+    {
+      "name": "CherryItemsTag",
+      "type": "tag",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_items_tag"
+    },
+    {
+      "name": "CherryWoodRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_wood_recipe"
+    },
+    {
+      "name": "CherryPlanksRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_planks_recipe"
+    },
+    {
+      "name": "CherryStairsRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_stairs_recipe"
+    },
+    {
+      "name": "CherrySlabRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_slab_recipe"
+    },
+    {
+      "name": "CherryFenceRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_fence_recipe"
+    },
+    {
+      "name": "CherryFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_fence_gate_recipe"
+    },
+    {
+      "name": "CherryPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_pressure_plate_recipe"
+    },
+    {
+      "name": "CherryButtonRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_button_recipe"
+    },
+    {
+      "name": "CherryStickRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_stick_recipe"
+    },
+    {
+      "name": "CherryForest",
+      "type": "biome",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_forest"
+    },
+    {
+      "name": "BlossomedCherryLeaves",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blossomed_cherry_leaves"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks"
+    },
+    {
+      "name": "AlternateStone1",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_stone_1"
+    },
+    {
+      "name": "AlternateStone2",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_stone_2"
+    },
+    {
+      "name": "AlternateDirt1",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_dirt_1"
+    },
+    {
+      "name": "AlternateDirt2",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_dirt_2"
+    },
+    {
+      "name": "AlternateDirt3",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_dirt_3"
+    },
+    {
+      "name": "AlternateOakWood",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_oak_wood"
+    },
+    {
+      "name": "Walnut",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walnut"
+    },
+    {
+      "name": "ClosedWalnut",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "closed_walnut"
+    },
+    {
+      "name": "AlternateDirt4",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_dirt_4"
+    },
+    {
+      "name": "Cherry",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry"
+    },
+    {
+      "name": "RawTin",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin"
+    },
+    {
+      "name": "TinIngotSmelting",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_smelting"
+    },
+    {
+      "name": "WildCarrotPlant",
+      "type": "plant",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_carrot_plant"
+    },
+    {
+      "name": "WildPotatoPlant",
+      "type": "plant",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_potato_plant"
+    },
+    {
+      "name": "WildBeetrootPlant",
+      "type": "plant",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_beetroot_plant"
+    },
+    {
+      "name": "LimestoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_stairs_recipe"
+    },
+    {
+      "name": "BronzeHoeRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_hoe_recipe"
+    },
+    {
+      "name": "BronzeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_leggings_recipe"
+    },
+    {
+      "name": "Limestone",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone"
+    },
+    {
+      "name": "LimestoneSlab",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_slab"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot"
+    },
+    {
+      "name": "Lemon",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon"
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block"
+    },
+    {
+      "name": "LimestoneStairs",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_stairs"
+    },
+    {
+      "name": "LimestoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_slab_recipe"
+    },
+    {
+      "name": "Lime",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime"
+    },
+    {
+      "name": "BronzeSword",
+      "type": "tool",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_sword"
+    },
+    {
+      "name": "LimestoneRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_recipe"
+    },
+    {
+      "name": "Lettuce",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce"
+    },
+    {
+      "name": "LimestoneWallStairs",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_wall_stairs"
+    },
+    {
+      "name": "LimestoneSlabStonecutting",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_slab_stonecutting"
+    },
+    {
+      "name": "BronzeArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_body_recipe"
+    },
+    {
+      "name": "BronzePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_pickaxe_recipe"
+    },
+    {
+      "name": "BronzeArmor",
+      "type": "armor",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BronzeShovelRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_shovel_recipe"
+    },
+    {
+      "name": "LimestoneWall",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_wall"
+    },
+    {
+      "name": "PolishedLimestoneStonecutting",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_limestone_stonecutting"
+    },
+    {
+      "name": "BronzeSwordRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_sword_recipe"
+    },
+    {
+      "name": "LimestoneStairsStonecutting",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_stairs_stonecutting"
+    },
+    {
+      "name": "BronzeOreSmelting",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore_smelting"
+    },
+    {
+      "name": "BronzePickaxe",
+      "type": "tool",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_pickaxe"
+    },
+    {
+      "name": "LimestoneWallStonecutting",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone_wall_stonecutting"
+    },
+    {
+      "name": "BronzeShovel",
+      "type": "tool",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_shovel"
+    },
+    {
+      "name": "PolishedLimestone",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_limestone"
+    },
+    {
+      "name": "WildLettusPlant",
+      "type": "plant",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_lettus_plant"
+    },
+    {
+      "name": "BronzeAxe",
+      "type": "tool",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_axe"
+    },
+    {
+      "name": "PolishedLimestoneRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_limestone_recipe"
+    },
+    {
+      "name": "BronzeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block_ore_recipe"
+    },
+    {
+      "name": "BronzeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore_block_recipe"
+    },
+    {
+      "name": "BronzeAxeRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_axe_recipe"
+    },
+    {
+      "name": "BronzeHoe",
+      "type": "tool",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_hoe"
+    },
+    {
+      "name": "BronzeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_boots_recipe"
+    },
+    {
+      "name": "BronzeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_armor_helmet_recipe"
+    },
+    {
+      "name": "LettuceRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LettucePlantStage0BlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_plant_stage_0_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LettucePlantStage0",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_plant_stage_0"
+    },
+    {
+      "name": "LettucePlantStage1",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_plant_stage_1"
+    },
+    {
+      "name": "LettucePlantStage2",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_plant_stage_2"
+    },
+    {
+      "name": "LettucePlantStage0UpdateTick",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_plant_stage_0_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LettucePlantStage0BlockAdded",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_plant_stage_0_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Farmland",
+      "type": "tag",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmland"
+    },
+    {
+      "name": "LettucePlantStage0OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_plant_stage_0_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LettucePlantStage1OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_plant_stage_1_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fertilizer",
+      "type": "tag",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fertilizer"
+    },
+    {
+      "name": "BronzeIngotSmithing",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot_smithing"
+    },
+    {
+      "name": "LettuceSeeds",
+      "type": "item",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_seeds"
+    },
+    {
+      "name": "LettucePlantStage2Loot",
+      "type": "loottable",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_plant_stage_2_loot"
+    },
+    {
+      "name": "SlimeBottle",
+      "type": "item",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_bottle"
+    },
+    {
+      "name": "SlimeBottleRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_bottle_recipe"
+    },
+    {
+      "name": "CrystallizedSlime",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallized_slime"
+    },
+    {
+      "name": "CrystallizedSlimeRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallized_slime_recipe"
+    },
+    {
+      "name": "CrystallizedHoney",
+      "type": "item",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallized_honey"
+    },
+    {
+      "name": "CrystallizedHoneyRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystallized_honey_recipe"
+    },
+    {
+      "name": "Slime",
+      "type": "fluid",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "Slimed",
+      "type": "potioneffect",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimed"
+    },
+    {
+      "name": "SlimedOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimed_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlimeMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZombieArcher",
+      "type": "livingentity",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_archer"
+    },
+    {
+      "name": "WhiteConcreteStairs",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_stairs"
+    },
+    {
+      "name": "OrangeConcreteStairs",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_stairs"
+    },
+    {
+      "name": "MagentaConcreteStairs",
+      "type": "block",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_concrete_stairs"
+    },
+    {
+      "name": "LightBlueConcreteStairs",
+      "type": "block",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_concrete_stairs"
+    },
+    {
+      "name": "YellowConcreteStairs",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_concrete_stairs"
+    },
+    {
+      "name": "LimeConcreteStairs",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_concrete_stairs"
+    },
+    {
+      "name": "PinkConcreteStairs",
+      "type": "block",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_concrete_stairs"
+    },
+    {
+      "name": "GrayConcreteStairs",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_concrete_stairs"
+    },
+    {
+      "name": "LightGrayConcreteStairs",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_concrete_stairs"
+    },
+    {
+      "name": "CyanConcreteStairs",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_concrete_stairs"
+    },
+    {
+      "name": "PurpleConcreteStairs",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_concrete_stairs"
+    },
+    {
+      "name": "BlueConcreteStairs",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_concrete_stairs"
+    },
+    {
+      "name": "BrownConcreteStairs",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_concrete_stairs"
+    },
+    {
+      "name": "GreenConcreteStairs",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_concrete_stairs"
+    },
+    {
+      "name": "RedConcreteStairs",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_stairs"
+    },
+    {
+      "name": "BlackConcreteStairs",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_concrete_stairs"
+    },
+    {
+      "name": "SoulGlass",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_glass"
+    },
+    {
+      "name": "SoulGlassPane",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_glass_pane"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot"
+    },
+    {
+      "name": "SteelIngotSmithing",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_smithing"
+    },
+    {
+      "name": "BlockOfSteel",
+      "type": "block",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_steel"
+    },
+    {
+      "name": "BlockOfSteelRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_steel_recipe"
+    },
+    {
+      "name": "AppleJuice",
+      "type": "item",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_juice"
+    },
+    {
+      "name": "ApplePie",
+      "type": "item",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_pie"
+    },
+    {
+      "name": "AppleJuiceRecipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_juice_recipe"
+    },
+    {
+      "name": "ApplePieRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_pie_recipe"
+    },
+    {
+      "name": "LemonJuice",
+      "type": "item",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_juice"
+    },
+    {
+      "name": "LemonPie",
+      "type": "item",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_pie"
+    },
+    {
+      "name": "LemonJuiceRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_juice_recipe"
+    },
+    {
+      "name": "LemonPieRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_pie_recipe"
+    },
+    {
+      "name": "Flesh",
+      "type": "item",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh"
+    },
+    {
+      "name": "FleshSmelting",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_smelting"
+    },
+    {
+      "name": "FleshSmoking",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_smoking"
+    },
+    {
+      "name": "WhiteConcreteSlab",
+      "type": "block",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_slab"
+    },
+    {
+      "name": "OrangeConcreteSlab",
+      "type": "block",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_slab"
+    },
+    {
+      "name": "MagentaConcreteSlab",
+      "type": "block",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_concrete_slab"
+    },
+    {
+      "name": "LightBlueConcreteSlab",
+      "type": "block",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_concrete_slab"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.eternal.cherry_fence_gate": "Cherry Fence Gate",
+      "fluid.eternal.slime": "Liquid Slime",
+      "block.eternal.cherry_planks": "Cherry Planks",
+      "item.eternal.bronze_armor_chestplate": "Bronze Chestplate",
+      "block.eternal.cherry_fence": "Cherry Fence",
+      "block.eternal.limestone_stairs": "Limestone Stairs",
+      "block.eternal.maple_fence_gate": "Maple Fence Gate",
+      "item.eternal.lemon": "Lemon",
+      "block.eternal.lime_concrete_stairs": "Lime Concrete Stairs",
+      "item.eternal.bronze_pickaxe": "Bronze Pickaxe",
+      "block.eternal.light_blue_concrete_stairs": "Light Blue Concrete Stairs",
+      "item.eternal.bronze_armor_helmet": "Bronze Helmet",
+      "block.eternal.block_of_steel": "Block Of Steel",
+      "block.eternal.magenta_concrete_stairs": "Magenta Concrete Stairs",
+      "effect.eternal.slimed": "Slimed",
+      "block.eternal.maple_pressure_plate": "Maple Pressure Plate",
+      "block.eternal.maple_wood": "Maple Wood",
+      "block.eternal.black_concrete_stairs": "Block Concrete Stairs",
+      "block.eternal.limestone": "Limestone",
+      "item.eternal.bronze_shovel": "Bronze Shovel",
+      "block.eternal.white_concrete_stairs": "White Concrete Stairs",
+      "block.eternal.cherry_button": "Cherry Button",
+      "block.eternal.light_blue_concrete_slab": "Light Blue Concrete Stairs",
+      "block.eternal.alternate_stone_2": "Stone",
+      "block.eternal.alternate_stone_1": "Stone",
+      "block.eternal.bronze_block": "Block of Bronze",
+      "entity.eternal.zombie_archer": "Zombie Archer",
+      "block.eternal.maple_stairs": "Maple Stairs",
+      "item.eternal.lime": "Lime",
+      "block.eternal.alternate_dirt_1": "Dirt",
+      "block.eternal.alternate_dirt_2": "Dirt",
+      "block.eternal.cherry_pressure_plate": "Cherry Pressure Plate",
+      "block.eternal.alternate_dirt_3": "Dirt",
+      "item.eternal.slime_bottle": "Slime Bottle",
+      "block.eternal.alternate_dirt_4": "Dirt",
+      "block.eternal.soul_glass_pane": "Soul Glass Pane",
+      "item.eternal.zombie_archer_spawn_egg": "Zombie Archer Spawn Egg",
+      "block.eternal.gray_concrete_stairs": "Gray Concrete Stairs",
+      "block.eternal.orange_concrete_slab": "Orange Concrete Slab",
+      "block.eternal.pink_concrete_stairs": "Pink Concrete Stairs",
+      "block.eternal.cherry_wood": "Cherry Wood",
+      "block.eternal.red_concrete_stairs": "Red Concrete Stairs",
+      "item.eternal.lettuce": "Lettuce",
+      "block.eternal.blue_concrete_stairs": "Blue Concrete Stairs",
+      "item.eternal.walnut": "Cracked Walnut",
+      "item.eternal.lemon_juice": "Lemon Juice",
+      "item.eternal.lettuce_seeds": "Lettuce Seeds",
+      "block.eternal.white_concrete_slab": "White Concrete Slab",
+      "block.eternal.wild_lettus_plant": "Wild Beetroot Plant",
+      "block.eternal.cherry_leaves": "Cherry Leaves",
+      "block.eternal.polished_limestone": "Polished Limestone",
+      "item.eternal.raw_tin": "Raw Tin",
+      "block.eternal.limestone_wall": "Limestone Wall",
+      "biome.eternal.maple_forest": "Maple Forest",
+      "item.eternal.bronze_axe": "Bronze Axe",
+      "block.eternal.slime": "Liquid Slime",
+      "item.eternal.lemon_pie": "Lemon Pie",
+      "block.eternal.maple_button": "Maple Button",
+      "block.eternal.soul_glass": "Soul Glass",
+      "item.eternal.crystallized_slime": "Crystallized Slime",
+      "block.eternal.orange_concrete_stairs": "Orange Concrete Stairs",
+      "block.eternal.cherry_stairs": "Cherry Stairs",
+      "block.eternal.maple_slab": "Maple Slab",
+      "block.eternal.maple_log": "Maple Log",
+      "block.eternal.green_concrete_stairs": "Green Concrete Stairs",
+      "item.eternal.bronze_ingot": "Bronze",
+      "block.eternal.cherry_log": "Cherry Log",
+      "item.eternal.crystallized_honey": "Crystallized Honey",
+      "block.eternal.tin_ore": "Tin Ore",
+      "item.eternal.tin_ingot": "Tin Ingot",
+      "block.eternal.wild_potato_plant": "Wild Potato Plant",
+      "block.eternal.maple_planks": "Maple Planks",
+      "item.eternal.bronze_hoe": "Bronze Hoe",
+      "item.eternal.flesh": "Flesh",
+      "block.eternal.wild_carrot_plant": "Wild Carrot Plant",
+      "item.eternal.closed_walnut": "Walnut",
+      "item.eternal.bronze_armor_boots": "Bronze Boots",
+      "block.eternal.purple_concrete_stairs": "Purple Concrete Stairs",
+      "block.eternal.maple_leaves": "Maple Leaves",
+      "item.eternal.slime_bucket": "Slime Bucket",
+      "block.eternal.wild_beetroot_plant": "Wild Beetroot Plant",
+      "block.eternal.magenta_concrete_slab": "Magenta Concrete Slab",
+      "block.eternal.cyan_concrete_stairs": "Cyan Concrete Stairs",
+      "block.eternal.cherry_slab": "Cherry Slab",
+      "biome.eternal.cherry_forest": "Cherry Forest",
+      "block.eternal.brown_concrete_stairs": "Brown Concrete Stairs",
+      "block.eternal.maple_fence": "Maple Fence",
+      "block.eternal.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
+      "item.eternal.apple_pie": "Apple Pie",
+      "block.eternal.alternate_oak_wood": "Oak Wood",
+      "item.eternal.cherry": "Cherry",
+      "item.eternal.steel_ingot": "Steel Ingot",
+      "item.eternal.bronze_sword": "Bronze Sword",
+      "block.eternal.lettuce_plant_stage_2": "Lettuce Plant Stage 0",
+      "item.eternal.apple_juice": "Apple Juice",
+      "block.eternal.lettuce_plant_stage_0": "Lettuce Plant Stage 0",
+      "block.eternal.lettuce_plant_stage_1": "Lettuce Plant Stage 1",
+      "item.eternal.bronze_armor_leggings": "Bronze Leggings",
+      "item.eternal.tin_nugget": "Tin Nugget",
+      "block.eternal.yellow_concrete_stairs": "Yellow Concrete Stairs",
+      "block.eternal.limestone_slab": "Limestone Slab",
+      "block.eternal.blossomed_cherry_leaves": "Cherry Leaves"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "eternal",
+    "modName": "Eternal",
+    "version": "1.0.0",
+    "author": "awana, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.eternal",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

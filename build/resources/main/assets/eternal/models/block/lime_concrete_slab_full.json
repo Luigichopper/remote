@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "eternal:blocks/lime_concrete",
+    "top": "eternal:blocks/lime_concrete",
+    "side": "eternal:blocks/lime_concrete"
+  },
+  "render_type": "solid"
+}

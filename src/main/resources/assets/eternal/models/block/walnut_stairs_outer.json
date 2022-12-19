@@ -1,9 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "eternal:blocks/walnut_planks",
-    "top": "eternal:blocks/walnut_planks",
-    "side": "eternal:blocks/walnut_planks"
-  },
-  "render_type": "solid"
-}

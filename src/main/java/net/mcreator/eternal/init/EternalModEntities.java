@@ -17,6 +17,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.eternal.entity.ZombieArcherEntity;
+import net.mcreator.eternal.entity.IronBowEntity;
+import net.mcreator.eternal.entity.GoldBowEntity;
 import net.mcreator.eternal.EternalMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -27,6 +29,12 @@ public class EternalModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZombieArcherEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<IronBowEntity>> IRON_BOW = register("projectile_iron_bow",
+			EntityType.Builder.<IronBowEntity>of(IronBowEntity::new, MobCategory.MISC).setCustomClientFactory(IronBowEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<GoldBowEntity>> GOLD_BOW = register("projectile_gold_bow",
+			EntityType.Builder.<GoldBowEntity>of(GoldBowEntity::new, MobCategory.MISC).setCustomClientFactory(GoldBowEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
